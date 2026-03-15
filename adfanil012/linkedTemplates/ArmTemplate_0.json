@@ -538,6 +538,24 @@
 										}
 									]
 								}
+							],
+							"defaultActivities": [
+								{
+									"name": "Fail1",
+									"type": "Fail",
+									"dependsOn": [],
+									"userProperties": [],
+									"typeProperties": {
+										"message": {
+											"value": "@pipeline().parameters.filetype",
+											"type": "Expression"
+										},
+										"errorCode": {
+											"value": "@pipeline().parameters.filetype",
+											"type": "Expression"
+										}
+									}
+								}
 							]
 						}
 					}
