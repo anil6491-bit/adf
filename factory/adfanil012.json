@@ -1,0 +1,9 @@
+{
+	"name": "adfanil012",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e97060d8-a46c-4c3d-8409-f3513fa90ca4",
+		"tenantId": "ac2e3a55-b404-4ace-bdca-fd8f5eccbb67"
+	}
+}
