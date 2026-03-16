@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://adfdemodl12.dfs.core.windows.net/"
 		},
+		"trigger1_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/bce1615b-da8f-4e6b-b161-04b09c1bdaea/resourceGroups/adf_learning/providers/Microsoft.Storage/storageAccounts/adfdemodl12"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -72,6 +76,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},

@@ -13,6 +13,9 @@
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adfdemodl12.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/bce1615b-da8f-4e6b-b161-04b09c1bdaea/resourceGroups/adf_learning/providers/Microsoft.Storage/storageAccounts/adfdemodl12"
 		}
 	}
 }
