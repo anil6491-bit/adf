@@ -11,8 +11,20 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"SqlServer1_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adfdemodl12.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "anil6491.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "pratice"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "anil6491"
 		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/bce1615b-da8f-4e6b-b161-04b09c1bdaea/resourceGroups/adf_learning/providers/Microsoft.Storage/storageAccounts/adfdemodl12"
