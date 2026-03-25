@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
-						"sqlReaderQuery": "select Watermarkvalue from watermarktable order by Watermarkvalue DESC",
+						"sqlReaderQuery": "select TableName,Watermarkvalue from watermarktable order by Watermarkvalue DESC",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},

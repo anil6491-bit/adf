@@ -10,6 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('employee_', formatDateTime(utcNow(), 'yyyyMMdd_HHmmss'), '.csv')\n",
+					"type": "Expression"
+				},
 				"fileSystem": "employee"
 			},
 			"columnDelimiter": ",",
